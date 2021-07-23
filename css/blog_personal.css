@@ -1,0 +1,104 @@
+body{
+    font-family: Arial, Helvetica;
+    background-image: url(./img/mapamundi.jpg);
+    background-size: cover;
+   
+    height: 100%;
+    margin: auto;
+    
+    
+
+}
+.menu{
+    list-style: none;
+    text-align: center;    
+    padding: 0;
+    background:#141D50;
+    width: 100%;
+    margin:auto;
+}
+.menu li a{
+    text-decoration: none;
+    color:white;
+    padding: 20px;
+    display: block;
+}
+.menu li{
+    display: inline-block;
+    text-align: center;
+}
+.menu li a:hover{
+    background: #D8B90C;
+}
+
+
+.parrafo{
+    width: 33%;
+    margin:3rem 4rem 4rem;
+    text-align: justify;
+    font-size:1rem;
+
+
+    
+}
+.hola{
+    margin:5rem 0 0 3rem;
+}
+.titulo_principal{
+    margin-left: 5rem;
+}
+.h3{
+    margin-left: 8rem;
+}
+.museo{
+    display: flex;
+    justify-content: space-around;
+}
+.parrafo_museo{
+    margin-left: 20%;
+    text-align: justify;
+    width: 70rem;
+    font-weight: bold;
+}
+.img_museo{
+    border: 2px solid black;
+
+} 
+.plaza{
+    display: flex;
+    justify-content: safe;
+}
+@media(max-width: 768px){
+    .header_texto{
+        margin-top:18rem;
+    }
+    body{
+        width: 90%;
+        text-align: center;
+        margin: 0 auto;
+    }
+    .museo{
+        display: block;
+    }
+    .parrafo_museo{
+        
+        
+        width: 350px;
+        font-weight: bold;
+        margin: 0 auto;
+    }
+
+}  
+.bosque{
+  
+   width: 500px;
+   height: 600px;
+   background-image: url("img/bosque.JPG");background-size: cover;background-repeat: no no-repeat;
+}  .contenido_pagina{
+    display: flex;
+    justify-content: space-around;
+}
+
+
+
+
